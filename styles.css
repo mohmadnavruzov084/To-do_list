@@ -102,7 +102,7 @@ ul li span:hover{
      background: #edeef0;
 
 }
-@media (max-width: 3750px) {
+@media (max-width: 375px) {
     .row{
         display: flex;
         align-items: center;
