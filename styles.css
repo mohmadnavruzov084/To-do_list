@@ -5,6 +5,7 @@
     font-family: "Roboto", serif;
     box-sizing: border-box;
 }
+
 .container{
     width: 100%;
     min-height: 100vh;
@@ -101,8 +102,44 @@ ul li span:hover{
      background: #edeef0;
 
 }
-@media (min-width: 320px) {
-    button{
-        padding: 16px 27px;
+@media (max-width: 3750px) {
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #edeef0;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-bottom: 23px;
     }
+
+    
+button {
+    border: none;
+    outline: none;
+    padding: 12px 14px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 22px 1px 61px;
+    border-radius: 10px;
+}
+.todo-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 25px;
+}
+
 }
